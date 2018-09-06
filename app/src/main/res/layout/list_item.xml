@@ -5,11 +5,7 @@
     android:layout_height="wrap_content"
     android:orientation="horizontal">
 
-    <ImageView
-        android:layout_width="64dp"
-        android:layout_height="64dp"
-        android:src="@drawable/person"
-        android:id="@+id/item_foto"/>
+
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -35,5 +31,11 @@
             android:paddingTop="8dp"/>
 
     </LinearLayout>
+
+    <ImageView
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:src="@drawable/person"
+        android:id="@+id/item_foto"/>
 
 </LinearLayout>
